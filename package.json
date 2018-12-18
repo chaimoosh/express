@@ -1,0 +1,24 @@
+{
+  "name": "express_learning",
+  "version": "1.0.0",
+  "description": "Just tring to learn express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaimoosh/express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaimoosh/express/issues"
+  },
+  "homepage": "https://github.com/chaimoosh/express#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0"
+  }
+}
