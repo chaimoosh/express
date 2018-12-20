@@ -1,11 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 
-const product = require('./routes/product.route');//import route for product
+const product = require('./routes/product');//import route for product
 const app = express();
 
 const mongoose = require('mongoose');
-let dev_db_url = 'mongodb://someuser:abcd123@ds035776.mlab.com:35776/products_tutorial';
+let dev_db_url = 'mongodb://someuser:abc1234@ds035776.mlab.com:35776/products_tutorial';
 let mongoDB = process.env.MONGODB_URI || dev_db_url;
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
