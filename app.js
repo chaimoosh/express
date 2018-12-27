@@ -14,7 +14,7 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}))
-app.use('./products', product)
+app.use('/products', product)
 
 let port = 1234;
 
